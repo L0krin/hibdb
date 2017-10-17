@@ -42,6 +42,20 @@ img{margin:0; padding:0; border:none;}
 .bio-img{max-width: 160px; max-height: 120px;}
 .navbar-spacing{padding-top: 100px;}
 
+.slideshow {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.slideshow iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 /* ----------------------------------------------Wrapper------------------------------------- */
 
