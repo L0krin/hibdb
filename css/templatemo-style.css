@@ -265,6 +265,7 @@ button:focus { outline: none; }
 }
 
 .tm-footer {
+	background: #010221;
 	padding-bottom: 20px;
 	overflow: auto;
 }
