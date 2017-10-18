@@ -16,7 +16,7 @@ File: Layout CSS
 @import url("portfolio.css");
 
 html{overflow-y:scroll;}
-body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#FFFFFF; background-color: #052033;}
+body{margin:0; padding:0; font-size:13px; font-family:'Open Sans', Helvetica, Arial, sans-serif; color:#FFFFFF; background-color: #052033;}
 
 .justify{text-align:justify;}
 .bold{font-weight:bold;}
