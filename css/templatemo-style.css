@@ -509,6 +509,6 @@ body.page-2 { padding-top: 80px; }
 }
 
 .yellow-text{
-	display: block;
+	display: inline-block;
 	color: #e1d721;
 }
