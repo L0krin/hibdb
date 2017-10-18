@@ -20,7 +20,7 @@ a:focus {
 	outline: none;
 }
 
-p { color: #666; }
+p { color: #f3f3f3; }
 h3 { margin-bottom: 2.5rem; }
 
 .table-striped tbody tr:nth-of-type(odd) {
