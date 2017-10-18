@@ -507,3 +507,8 @@ body.page-2 { padding-top: 80px; }
 		min-height: 600px;
 	}
 }
+
+.yellow-text{
+	display: block;
+	color: #e1d721;
+}
