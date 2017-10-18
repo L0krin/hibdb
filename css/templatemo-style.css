@@ -480,9 +480,9 @@ body.page-2 { padding-top: 80px; }
 		box-shadow: none;
 		height: 54px; 
 	}
-	.navbar { background-color: rgba(0,0,0,0.2); }
-	.tm-navbar-container.bg-inverse .navbar { background-color: #373a3c; }
-	.bg-inverse { background-color: #373a3c; }
+	.navbar { background-color: rgba(0, 8, 41, 0.2); }
+	.tm-navbar-container.bg-inverse .navbar { background-color: #000845; }
+	.bg-inverse { background-color: #000849; }
 
 	.tm-form-group-left { padding-right: 0; }
 	.tm-form-group-right { padding-left: 0; }
