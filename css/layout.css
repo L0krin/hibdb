@@ -56,6 +56,31 @@ img{margin:0; padding:0; border:none;}
     height: 100%;
 }
 
+/* -------------------Tableizer (for Competition Matrix)---------------------*/
+table.tableizer-table {
+    font-size: 12px;
+    color: black;
+    border: 1px solid #CCC; 
+    font-family: Arial, Helvetica, sans-serif;
+    table-layout: fixed;
+    width: 500px;
+} 
+.tableizer-table td {
+    padding: 4px;
+    margin: 3px;
+    border: 1px solid #CCC;
+    width: 75px;
+    text-align: center;
+    vertical-align: middle;
+}
+.tableizer-table th {
+    background-color: #104E8B; 
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
 
 /* ----------------------------------------------Wrapper------------------------------------- */
 
