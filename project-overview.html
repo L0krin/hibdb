@@ -74,27 +74,68 @@
             <div class="navbar-spacing">
                 <div class="container">
                     <div class="row">
-			<section id="tm-selection-4">
-                        <!-- <h2 class="title">Problem Description</h2> -->
-			<div class="row gray-bg">
-			<div class="tm-container tm-container-wide">
-                            <div class="tm-news-item">
-				<div class="tm-news-container">
-				<br>
-				<h2 class="tm-news-title dark-gray-text">The Problem</h2>
-				<p class="tm-news-text">Students are not allowed to select a project that has already been done in a previous CS410 semester. So they are required to look through pages and pages of reports from previous semesters. While they will get to see some examples of previous projects, this is ultimately a waste of time because most students will simply click on one project, read the first page and move on because its not related to the project they have in mind.</p>
-				<p class="tm-news-text">In some situations, students either don't look at all the projects, or suggest them anyway. In these situations, the professor is presented with a project that seems familliar, but there is still the question of when the project was done. So in this situation the professor much return to the list of previous projects and look through them all to find when it was done. This is time the professor could have spent teaching or reviewing other projects. Multiply that by the number of students suggesting repeat projects, and multiply again by how many semesters this has occured, and there is a lot of wasted time.</p>
-				<br>
-				<h2 class="tm-news-title dark-gray-text">The Solution</h2>
-				<p class="tm-news-text">Compile details on all previous projects and create a searchable archive that allows students to look up details on their project solution and the archive will return links to previous projects that might be related. Results should be categorized to aid in lookups. The system will have to "learn" from new projects that are created in the future so that they will be automatically be added to the database of project characteristics.</p>
-				<br>
-				<h2 class="tm-news-title dark-gray-text">Competition</h2>
-				<p class="tm-news-text">The current scope of this project is limited to the ODU Computer Science previous projects page, and therefore has a low risk of competition. Research should be done in order to find search providers that might be able to adapt their search engine in order to search the ODU archives. </p>
-				</div>
-			    </div>
-			</div>
-			</div>
-			</section>
+                        <section id="tm-selection-4">
+                            <!-- <h2 class="title">Problem Description</h2> -->
+                            <div class="row gray-bg">
+                                <div class="tm-container tm-container-wide">
+                                    <div class="tm-news-item">
+                                        <div class="tm-news-container">
+                                            <h2 class="tm-news-title dark-gray-text">Problem Statement</h2>
+                                            <p class="tm-news-text">Users have difficulty searching through web resources containing large quantities of data.</p>
+                                            <h2 class="tm-news-title dark-gray-text">Problem Characteristics</h2>
+                                            <p class="tm-news-text">
+                                                • Manually searching a non-indexed archive takes too long<br/>
+                                                • CTRL + F search may not return all relevant results<br/>
+                                                • CTRL + F search is limited to the current page<br/>
+                                                • Project files are not included in search results<br/>
+                                            </p>
+                                            <h2 class="tm-news-title dark-gray-text">Current Process Flow Diagram</h2>
+                                            <img src="img/project-overview/CurrentFlow.jpg" alt="Current Process Flow" />
+                                            <h2 class="tm-news-title dark-gray-text">Solution Statement</h2>
+                                            <p class="tm-news-text">Archive support software must have the ability to quickly provide students with a complete list of former projects based on a query.</p>
+                                            <h2 class="tm-news-title dark-gray-text">Solution Characteristics</h2>
+                                            <p class="tm-news-text">
+                                                • Faster searching via indexing with meta tags<br/>
+                                                • All relevant results returned regardless of project title<br/>
+                                                • Search results include all nested web pages<br/>
+                                                • Project files are included in search results<br/>
+                                            </p>
+                                            <h2 class="tm-news-title dark-gray-text">What Mariana Will Do</h2>
+                                            <p class="tm-news-text">
+                                                • Mariana will search data across a number of different parameters.<br/>
+                                                • The application will upload new data to be indexed and searched.<br/>
+                                                • Mariana will provide interfaces for indexing and searching a variety of data types.<br/>
+                                            </p>
+                                            <h2 class="tm-news-title dark-gray-text">What Mariana Won't Do</h2>
+                                            <p class="tm-news-text">
+                                                • It is not Google, Bing, or other major search engines.<br/>
+                                                • Mariana will not do searches outside of the searches it was programmed to support.<br/>
+                                                • Mariana will not consume data without some human input.<br/>
+                                                • Mariana will not require users to purchase expensive licenses.<br/>
+                                            </p>
+                                            <h2 class="tm-news-title dark-gray-text">Proposed Process Flow Diagram</h2>
+                                            <img src="img/project-overview/ProposedFlow.jpg" alt="Proposed Process Flow" />
+                                            <h2 class="tm-news-title dark-gray-text">Competition Matrix</h2>
+                                            <table class="tableizer-table">
+                                                <thead><tr><th></th><th>CPI Archive 2.0</th><th>CPI Archive (Current)</th><th>Kibana</th></tr></thead><tbody>
+                                                    <tr><td>Standard for CS Department</td><td>✔</td><td>✔</td><td>&nbsp;</td></tr>
+                                                    <tr><td>Completely Captures the Market</td><td>✔</td><td>✔</td><td>&nbsp;</td></tr>
+                                                    <tr><td>Staff Support</td><td>✔</td><td>✔</td><td>&nbsp;</td></tr>
+                                                    <tr><td>Efficiency</td><td>✔</td><td>&nbsp;</td><td>✔</td></tr>
+                                                    <tr><td>Up to Date</td><td>✔</td><td>&nbsp;</td><td>✔</td></tr>
+                                                    <tr><td>Elasticsearch and data indexing</td><td>✔</td><td>&nbsp;</td><td>✔</td></tr>
+                                                    <tr><td>Parsing a variety of data sources</td><td>✔</td><td>&nbsp;</td><td>✔</td></tr>
+                                                    <tr><td>Dynamic User Interface</td><td>✔</td><td>&nbsp;</td><td>✔</td></tr>
+                                                </tbody></table>
+                                            
+                                            <h2 class="tm-news-title dark-gray-text">Major Functional Component Diagram</h2>
+                                            <img src="img/project-overview/mfcd.jpg" alt="Major Functional Component Diagram" />
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
