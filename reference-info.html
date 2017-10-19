@@ -566,7 +566,7 @@
 
                 /* Turn navbar background to solid color starting at section 2
                  ---------------------------------------------------------------*/
-                var target = $("#tm-section-4").offset().top - topOffset;
+                var target = $(".tm-news-item").offset().top - topOffset;
 
                 if ($(window).scrollTop() >= target) {
                     $(".tm-navbar-container").addClass("bg-inverse");
