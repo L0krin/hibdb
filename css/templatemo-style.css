@@ -361,7 +361,7 @@ button:focus { outline: none; }
 
 body.page-2 { padding-top: 80px; }
 
-.page-2 .container-fluid { max-width: 100%; }
+.page-2 .container-fluid { max-width: 1440px; }
 
 .tm-banner-img {
   display: block;
